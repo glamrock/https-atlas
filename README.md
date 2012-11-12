@@ -1,18 +1,14 @@
-# README for a newly created project.
+# https-atlas
+#######aka https-most-places
 
-There are a couple of things you should do first, before you can use all of Git's power:
+This is my version of https-everywhere in pure javascript, without using xml
+rules files.
 
-  * Add a remote to this project: in the Cloud9 IDE command line, you can execute the following commands
-    `git remote add [remote name] [remote url (eg. 'git@github.com:/ajaxorg/node_chat')]` [Enter]
-  * Create new files inside your project
-  * Add them to to Git by executing the following command
-    `git add [file1, file2, file3, ...]` [Enter]
-  * Create a commit which can be pushed to the remote you just added
-    `git commit -m 'added new files'` [Enter]
-  * Push the commit the remote
-    `git push [remote name] master` [Enter]
+##The goals are:
+* Stable Chrome Build
+* Lighter (aiming for <30kb for https-atlas vs 240kb for https-everywhere)
+* Easier for users to add/remove sites
 
-That's it! If this doesn't work for you, please visit the excellent resources from [Github.com](http://help.github.com) and the [Pro Git](http://http://progit.org/book/) book.
-If you can't find your answers there, feel free to ask us via Twitter (@cloud9ide), [mailing list](groups.google.com/group/cloud9-ide) or IRC (#cloud9ide on freenode).
-
-Happy coding!
+## Questions, queries, queaths?
+griffin@cryptic.be
+@abditum on twitter
