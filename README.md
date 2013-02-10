@@ -9,6 +9,9 @@ rules files.
 * Lighter (aiming for <30kb for https-atlas vs 240kb for https-everywhere)
 * Easier for users to suggest sites
 
+##Note
+Stuff in /alpha is pretty much on fire. Don't use it for anything of consequence.
+
 ## Questions, queries, queaths?
 griffin@cryptic.be
 @abditum on twitter

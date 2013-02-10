@@ -1,0 +1,49 @@
+{
+  // Required
+  "name": "Https Atlas",
+  "version": "0.01",
+  "manifest_version": 2,
+
+  // Recommended
+  "description": "https for a large number of sites",
+  "icons": { ... },
+  "default_locale": "en",
+
+  // Pick one (or none)
+  "browser_action": {...},
+  "page_action": {...},
+  "theme": {...},
+  "app": {...},
+
+  // Add any of these that you need
+  "content_scripts": [
+    {
+      "matches": ["http://www.google.com/*"],
+      "css": ["mystyles.css"],
+      "js": ["https.js"]
+    }
+  ]
+  
+  "background": {"persistent": false, ...},
+  "background": {"persistent": true, ...},
+  "chrome_url_overrides": {...},
+  "content_scripts": [...],
+  "content_security_policy": "policyString",
+  "file_browser_handlers": [...],
+  "homepage_url": "http://path/to/homepage",
+  "incognito": "spanning" or "split",
+  "intents": {...}
+  "key": "publicKey",
+  "minimum_chrome_version": "versionString",
+
+  "nacl_modules": [...],
+  "offline_enabled": true,
+  "omnibox": { "keyword": "aString" },
+  "options_page": "aFile.html",
+  "permissions": [...],
+  "plugins": [...],
+  "requirements": {...},
+  "update_url": "http://path/to/updateInfo.xml",
+  "web_accessible_resources": [...],
+  "sandbox": [...]
+}

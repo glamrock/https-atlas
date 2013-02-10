@@ -1,1 +1,2 @@
 {"ts":1352685143932,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1352688965503,"patch":[[{"diffs":[[1,"(function(){\nvar url = window.location.href;\nif(url.indexOf(\"http://\")===0) {\nwindow.location.replace(location.href.replace(url.substring(0,7), \"https://\"));\n}\n})();"]],"start1":0,"start2":0,"length1":0,"length2":165}]],"length":165,"saved":false}
